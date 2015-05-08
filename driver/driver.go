@@ -10,7 +10,7 @@
 //  2. Call Benchmark helper function and provide benchmarking function
 //  func(N uint64), similar to standard testing benchmarks. The rest is handled
 //  by the driver.
-package driver // import "golang.org/x/benchmarks/driver"
+package driver // import "github.com/maxbaldin/benchmarks/driver"
 
 import (
 	"bytes"
