@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // HTTP is a benchmark that examines client/server http performance.
-package http // import "golang.org/x/benchmarks/http"
+package http // import "github.com/maxbaldin/benchmarks/http"
 
 import (
 	"fmt"
