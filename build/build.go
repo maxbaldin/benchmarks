@@ -4,7 +4,7 @@
 
 // Build is a benchmark that examines compiler and linker performance.
 // It executes 'go build -a cmd/go'.
-package build // import "golang.org/x/benchmarks/build"
+package build // import "github.com/maxbaldin/benchmarks/build"
 
 import (
 	"log"
