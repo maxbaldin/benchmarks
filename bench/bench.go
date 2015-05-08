@@ -12,15 +12,15 @@ To run a benchmark execute:
 	./bench -bench=json
 See the README file for more details.
 */
-package main // import "golang.org/x/benchmarks/bench"
+package main // import "github.com/maxbaldin/benchmarks/bench"
 
 import (
-	"golang.org/x/benchmarks/driver"
+	"github.com/maxbaldin/benchmarks/driver"
 
-	_ "golang.org/x/benchmarks/build"
-	_ "golang.org/x/benchmarks/garbage"
-	_ "golang.org/x/benchmarks/http"
-	_ "golang.org/x/benchmarks/json"
+	_ "github.com/maxbaldin/benchmarks/build"
+	_ "github.com/maxbaldin/benchmarks/garbage"
+	_ "github.com/maxbaldin/benchmarks/http"
+	_ "github.com/maxbaldin/benchmarks/json"
 )
 
 func main() {
