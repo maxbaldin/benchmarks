@@ -15,7 +15,7 @@ import (
 	"runtime"
 	"time"
 
-	"golang.org/x/benchmarks/driver"
+	"github.com/maxbaldin/benchmarks/driver"
 )
 
 func init() {
