@@ -4,7 +4,7 @@
 
 // JSON benchmark marshals and unmarshals ~2MB json string
 // with a tree-like object hierarchy, in 4*GOMAXPROCS goroutines.
-package json // import "golang.org/x/benchmarks/json"
+package json // import "github.com/maxbaldin/benchmarks/json"
 
 import (
 	"bytes"
