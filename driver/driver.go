@@ -88,11 +88,6 @@ func Main() {
 			os.Exit(1)
 		}
 		defer f.Close()
-		if err := pprof.StartTrace(f); err != nil {
-			fmt.Fprintf(os.Stderr, "can't start tracing: %s\n", err)
-			os.Exit(1)
-		}
-		defer pprof.StopTrace()
 	}
 
 	res := f()
