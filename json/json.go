@@ -14,7 +14,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"golang.org/x/benchmarks/driver"
+	"github.com/maxbaldin/benchmarks/driver"
 )
 
 func init() {
